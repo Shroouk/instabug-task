@@ -5,9 +5,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #445065;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.i-mb-2{
+  margin-bottom: 20px;
+}
+.i-mt-2{
+  margin-top: 20px;
+}
+
+.i-link-grey {
+  color: #a6a6a6;
+  text-decoration: none;
+}
+.i-link {
+  color: #0089e5;
+  text-decoration: none;
+  font-weight: 400;
+}
+.i-font-sm{
+  font-size: .875rem
 }

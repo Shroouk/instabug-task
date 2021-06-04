@@ -1,0 +1,74 @@
+.icon-img{
+    width: 20px;
+}
+
+.login-txt{
+    font-weight: 400;
+    color: #999999;
+}
+.social-link{
+    width: 56%;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: center;
+    overflow: hidden;
+    height: 35px;
+    outline-width: 0;
+    border: none;
+    border-radius: 4px;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 600;
+    font-size: .875rem;
+    font-family: inherit;
+    line-height: 30px;
+}
+.google-link img{
+    background-color: #fff;
+    padding: 6px;
+    border-radius: 2px;
+    width: 30px;
+}
+.google-link {
+    position: relative;
+    background-color: #4285F4;
+    color: #fff;
+}
+.github-link {
+    position: relative;
+    background-color: #333;
+    color: #fff;
+}
+.microsoft-link{
+    position: relative;
+    border: 1px solid #8c8c8c !important;
+    background-color: #fff;
+    color: #5e5e5e;
+} 
+
+.google-link:hover , .github-link:hover{
+    color: #fff;
+}
+.microsoft-link:hover{
+    color: #5e5e5e;
+}
+.social-link-txt{
+    width: 90%;
+}
+
+.divider {
+    font-weight: 500;
+    width: 56%;
+    text-align: center;
+    border-bottom: 1px solid #dcdee3;
+    line-height: 0.1em;
+    margin: 10px auto;
+}
+.divider span { 
+    background:#fff; 
+    padding:0 10px; 
+}

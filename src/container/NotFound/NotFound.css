@@ -1,0 +1,13 @@
+.notfound-heading{
+    color: #00287a;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.875rem;
+}
+.notfound-txt{
+    margin-top: 1rem;
+    color: #7f93bc;
+    text-align: center;
+    font-size: 1.375rem;
+    line-height: 1.875rem;
+}

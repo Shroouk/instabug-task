@@ -1,0 +1,36 @@
+.carousel {
+    width: 80% !important;
+}
+
+.carousel-item{
+    height: 250px ;
+}
+
+.view img{
+    height: 350px !important;
+}
+
+.slider-txt{
+    color: #fff;
+    margin-top: 25px;
+}
+
+.carousel-indicators{
+    top: 105%;
+}
+
+.carousel .carousel-indicators li {
+    width: .525rem;
+    height: .525rem;
+}
+
+.carousel-indicators li {
+    border: 2px solid #fff;
+    background-color: transparent !important;
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+    opacity: 1 !important;
+}
+.carousel-indicators .active{
+    background-color: #fff !important;
+}

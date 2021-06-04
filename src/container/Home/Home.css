@@ -1,0 +1,36 @@
+.welcome-wrapper{
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.welcome-side{
+    margin-top: 350px;
+    height: 100%;
+     align-items: center;
+     text-align: -webkit-center;
+}
+.welcome-side h2{
+    font-weight: 400;
+}
+.wel-email{
+    color: #09f;;
+}
+.signout-btn{
+    color: #fff!important;
+    background-color: #09f;
+    height: 40px;
+    padding: 0 1rem;
+    min-width: 120px;
+    font-size: .875rem;
+    line-height: 38px;
+    outline-width: 0;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    margin-top: 50px;
+    
+}

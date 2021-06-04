@@ -1,0 +1,14 @@
+.trusted-companies-txt{
+    color: #a4aab4;
+}
+.trusted-companies{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+svg {
+    fill: #999999;
+}
+

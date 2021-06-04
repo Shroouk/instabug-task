@@ -1,0 +1,118 @@
+.error-alert{
+    width: 100%;
+    background-color: #fce6e2;
+    position: relative;
+    margin: 1rem auto;
+    padding-top: .7rem;
+    padding-left: .5rem;
+    border: 1px solid rgba(0,0,0,0.25);
+    border-radius: 3px;
+    color: #445065;
+    text-align: left;
+}
+.login-error-msg{
+    color: #f24220;
+    text-align: left;
+    margin-top: 5px;
+    font-size: .75rem;
+}
+.hidden{
+    display: none;
+}
+.show{
+    display: block;
+}
+
+.loginForm{
+    width: 57%;
+    margin: 0  auto;
+}
+.form-label{
+    text-align: left;
+    display: block;
+    margin: 0 0 .25rem 0;
+    color: #445065;
+    font-size: .875rem;
+    cursor: pointer;
+    font-weight:500;
+}
+
+
+.pass-wrapper{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.login-form-input{
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    box-sizing: border-box;
+    margin: 0;
+    padding: .5rem 0 .5rem .5rem;
+    width: 100%;
+    height: 35px;
+    outline: 0;
+    border: 1px solid #dcdee3;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #445065;
+}
+
+.login-form-input:focus{
+        border-color: #09f;
+        box-shadow: inset 0 0 4px 0 #09f;
+}
+.login-form-input::-webkit-input-placeholder {
+    color: #afafaf;
+    font-size: 13px;
+  }
+  .login-form-input:-ms-input-placeholder {
+     color: #afafaf;
+     font-size: 13px;
+  }
+  .login-form-input:-moz-placeholder {
+     color: #afafaf;
+     font-size: 13px;
+  }
+  .login-form-input::-moz-placeholder {
+     color: #afafaf;
+     font-size: 13px;
+  }
+  .input-error{
+    border-color: #f24220;
+  }
+  .input-error:focus{
+    border-color: #f24220;
+    box-shadow: inset 0 0 4px 0 transparent;
+}
+.login-btn{
+        background-color: #0089e5;
+        color: #fff;
+        height: 40px;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        font-size: .875rem;
+        line-height: 38px;
+        width: 100%;
+        outline-width: 0;
+        border: none;
+        border-radius: 4px;
+        vertical-align: middle;
+        text-align: center;
+        text-decoration: none;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-weight: 600;
+}
+.login-btn:disabled {
+    background-color: #ccc;
+    color: #fff;
+    cursor: not-allowed;
+}
+
+
+.signup-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
