@@ -1,6 +1,7 @@
 import React , { Component }from 'react';
-import welcome from '../../assets/imgs/welcome.png'
-import './Home.css'
+import { Redirect } from "react-router-dom";
+import welcome from '../../assets/imgs/welcome.png';
+import './Home.css';
 
 
 class Welcome extends Component{
@@ -31,7 +32,7 @@ class Welcome extends Component{
                     <div className="welcome-side"> 
                     <h2>Welcome <span className="wel-email"> {localStorage.getItem("token")}</span></h2>
                     <button onClick={this.signOut} href="#" className="signout-btn">
-                    Sign Out
+                    Log Out
                     </button>
                     </div>
                 </div>
